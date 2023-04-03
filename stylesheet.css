@@ -1,3 +1,7 @@
+header{
+    margin-top: 70px;
+}
+
 header h1{
     width: 946px;
     height: 138px;
@@ -10,29 +14,67 @@ header h1{
     color: white;
 }
 
-body{
+body {
     background-color: rgb(46, 46, 46);
 }
 
-form ul {
-    color: white;   
-    font-size: 45px;
 
-    
-}
-
-#idade{
-    display: flex;
+#container {
+    display: grid;
     width: 1238px;
     height: 257px;
-    justify-content: center;
-    background-color: #CA7900;
-    margin-top: 434px;
-    margin-left: 137px;
+    margin: 5% auto;
+    background: #CA7900;
     border-radius: 40px;
+
 }
 
-#button{
+label {
+
+    width: 528px;
+    height: 53px;
+    margin: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+#ClientAgeButton {
     display: flex;
     flex-direction: row;
+}
+
+.btn {
+    display: flex; 
+    height: 76px;
+    width: 225px;
+    border-radius: 14px;
+
+    background: #CA8500;
+    border: 9px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background: #CA8500;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    border: 0px;
+    color: #F5F5F5;
+
 }
