@@ -46,8 +46,10 @@ label {
 
 
 #ClientAgeButton {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
 }
 
 .btn {
@@ -65,6 +67,7 @@ label {
 }
 
 button {
+   
     width: 100%;
     background: #CA8500;
     font-family: 'Raleway', sans-serif;
@@ -76,5 +79,14 @@ button {
     text-align: center;
     border: 0px;
     color: #F5F5F5;
+
+}
+
+#btn.SIM button {
+
+}
+
+#btn.NÃO {
+ 
 
 }
