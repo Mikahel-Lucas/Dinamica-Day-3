@@ -1,12 +1,9 @@
-header{
-    margin-top: 70px;
-}
-
 header h1{
+    margin-top: 70px;
     width: 946px;
     height: 138px;
-    margin-top: 80px;
-    margin-left: 288px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: 700;
@@ -23,7 +20,7 @@ body {
     display: grid;
     width: 1238px;
     height: 257px;
-    margin: 5% auto;
+    margin: 9% auto;
     background: #CA7900;
     border-radius: 40px;
 
@@ -46,14 +43,15 @@ label {
 
 
 #ClientAgeButton {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
 
 }
 
 .btn {
-    display: flex; 
+    display: flex;
     height: 76px;
     width: 225px;
     border-radius: 14px;
@@ -64,10 +62,10 @@ label {
     border-radius: 14px;
 
     box-sizing: border-box;
+
 }
 
 button {
-   
     width: 100%;
     background: #CA8500;
     font-family: 'Raleway', sans-serif;
@@ -79,14 +77,16 @@ button {
     text-align: center;
     border: 0px;
     color: #F5F5F5;
-
+    align-items: center;
+    text-align: center;
+    
 }
 
-#btn.SIM button {
-
-}
-
-#btn.NÃO {
- 
+img{
+position: absolute;
+width: 164px;
+height: 110px;
+left: 710px;
+top: 260px;
 
 }
